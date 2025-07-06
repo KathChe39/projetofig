@@ -1,0 +1,142 @@
+*{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+   color: white;
+   position: sticky;
+   z-index: 2;
+   top: 0;
+
+}
+
+header strong{
+    font-weight: normal;
+}
+
+header h1{
+    background-color: #c80000;
+    font-size: 64px;
+    padding: 0.5rem;
+
+}
+
+header h1 strong{
+    font-size: 32px;
+    padding-left: 1rem;
+}
+
+header h2{
+    background-color: #666;
+    font-weight: normal;
+    text-align: center;
+    font-size: 32px;
+    padding: 0.5rem 0;
+
+}
+
+header h2 strong{
+    font-style: italic;
+    padding-left: 0.5rem;
+}
+
+main{
+    width: fit-content;
+    padding: 3rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 2rem;
+    margin: auto;
+
+}
+
+.sales-button {
+    background-color: #c80000;
+    color: white;
+    padding: 1rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 0 16px 16px 0;
+    position: fixed;
+    left: 0;
+    top: 500px;
+    text-transform: uppercase;
+}
+
+.figurine__promo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #666;
+    border: double 0.5rem white;
+    padding: 1rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.figurine {
+    width: 350px;
+   border: solid 1px #666;
+   padding: 0.5rem;
+   position: relative;
+}
+
+.figurine__picture {
+    width: 80%;
+    margin: auto;
+}
+.figurine__category {
+    color: #ccc;
+    text-transform: uppercase;
+    border-bottom: solid 1px #666 ;
+    font-weight: bold;
+}
+.figurine__name {
+    font-size: 25px;
+
+}
+
+.figurine__description {
+    padding-bottom: 1rem;
+}
+
+.add-to-cart {
+    background-color: #c80000;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 1.5rem 1rem;
+    justify-content: space-between;
+    
+}
+
+.add-to-cart__price {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+.add-to-cart__price--old {
+    text-decoration: line-through;
+}
+
+footer{
+    background-color: #666;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+
+}
